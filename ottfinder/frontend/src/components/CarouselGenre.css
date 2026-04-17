@@ -1,0 +1,35 @@
+.genre-section {
+  padding: 20px;
+}
+
+.carousel-card {
+  padding: 10px;
+  text-align: center;
+}
+
+.carousel-card img {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 250px;
+  object-fit: cover;
+}
+.custom-arrow {
+  position: absolute;
+  top: 40%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+}
+
+.custom-arrow.next {
+  right: -20px;
+}
+
+.custom-arrow.prev {
+  left: -20px;
+}
